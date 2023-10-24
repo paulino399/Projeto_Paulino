@@ -43,7 +43,7 @@ header{
     width: 100px;
 }
 .logo{
-    padding: 9px;
+    padding:0 9px;
 }
 
 .input-search {
