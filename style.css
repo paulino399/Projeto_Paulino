@@ -33,6 +33,7 @@ boot Css
 /* Fim do Boot Css*/
 
 header{
+    
     background-color: #131921;
     color: white;
     padding: 10px 0;
@@ -65,14 +66,15 @@ header{
 }
 
 .text-info-header{
+    height: 50px;
     font-size: 12px;
-    padding:0 20px;
+    padding:10px 20px;
+    cursor: pointer;
 }
 
 .text-info-header:hover{
-   border: 1px solid white;
-    cursor: pointer;
-
+  
+    outline: 1px solid white;
 }
 .text-info-header p{
     white-space:nowrap;
