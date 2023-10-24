@@ -42,6 +42,10 @@ header{
 .logo img{
     width: 100px;
 }
+.logo img{
+    transition:ease 2ms;
+}
+.logo img
 .logo{
     padding:0 9px;
 }
