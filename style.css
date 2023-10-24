@@ -44,6 +44,7 @@ header{
 }
 .logo img{
     transition:ease 2ms;
+    cursor: pointer;
 }
 .logo img:hover{
     border-radius:5px;
