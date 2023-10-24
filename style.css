@@ -24,3 +24,9 @@ boot Css
     width: 100px;
     height: 100px;
 }
+
+.input-search {
+   width: 70%;
+   display: flex;
+}
+
