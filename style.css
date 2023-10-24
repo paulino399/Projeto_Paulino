@@ -8,3 +8,12 @@
 body {
     background-color:#ccc;  /* core de fundo para o orpo principal*/
 }
+
+/*
+boot Css
+*/
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
