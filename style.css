@@ -42,6 +42,9 @@ header{
 .logo img{
     width: 100px;
 }
+.logo{
+    padding: 9px;
+}
 
 .input-search {
     padding:0 10px;
@@ -69,6 +72,7 @@ header{
 .text-info-header{
     height: 50px;
     font-size: 12px;
+    margin:8px 0;
     padding:10px 20px;
     cursor: pointer;
 }
