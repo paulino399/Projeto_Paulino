@@ -44,6 +44,7 @@ header{
 }
 
 .input-search {
+    padding:0 10px;
    width: 70%;
    display: flex;
 }
@@ -73,7 +74,7 @@ header{
 }
 
 .text-info-header:hover{
-  
+    border-radius:5px;
     outline: 1px solid white;
 }
 .text-info-header p{
