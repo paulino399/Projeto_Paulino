@@ -69,6 +69,11 @@ header{
     padding:0 20px;
 }
 
+.text-info-header:hover{
+   border: 1px solid white;
+    cursor: pointer;
+
+}
 .text-info-header p{
     white-space:nowrap;
 }
