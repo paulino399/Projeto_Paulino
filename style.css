@@ -17,3 +17,10 @@ boot Css
     margin: 0 auto;
     padding: 0 2%;
 }
+
+.flex{display: flex;}
+
+.logo img{
+    width: 100px;
+    height: 80px;
+}
