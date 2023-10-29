@@ -121,4 +121,17 @@ font-size: 13px;
     width: 100%;
 }
 
+/* Segunda Secção */
+.divisao {
+    min-height: 600px;
+    width: 100%;
+    background-image:url('/img/Paulino3.jpg') ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
 
