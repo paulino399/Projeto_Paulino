@@ -140,4 +140,12 @@ font-size: 13px;
     justify-content: space-around;
 }
 
+.imagem{
+    position: relative;
+    top:-2px;
+    width: 24%;
+    background-color: white;
+    padding: 8px 12px;
+}
+
 
