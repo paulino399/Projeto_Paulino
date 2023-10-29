@@ -95,7 +95,7 @@ header{
 
 /* Baner Principal */
 .vitrine {
-    min-height: 600px;
+    min-height: 800px;
     width: 100%;
     background-image:url('/img/Paulino3.jpg') ;
     background-position: center;
@@ -108,6 +108,7 @@ header{
 
 .box-vitrine{
     position: relative;
+    top:15px
     width: 25%;
     background-color: white;
     padding: 8px 12px;
