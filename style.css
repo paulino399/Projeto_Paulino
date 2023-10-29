@@ -107,9 +107,14 @@ header{
 }
 
 .box-vitrine{
+    position: relative;
     width: 25%;
     background-color: white;
     padding: 8px 12px;
+}
+.box-vitrine a{
+ color: #069;
+font-size: 13px;
 }
 
 .box-vitrine img{
