@@ -159,7 +159,10 @@ font-size: 13px;
 
    .sobre{
     height: 200px;
-    background-color: black;
+    background-color: white;
+   }
+   .sobre h1{
+    margin:5px 30%;
    }
 
 
