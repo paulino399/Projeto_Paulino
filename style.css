@@ -148,4 +148,13 @@ font-size: 13px;
     padding: 8px 12px;
 }
 
+.imagem a{
+    color: #069;
+   font-size: 13px;
+   }
+   
+   .imagem img{
+       width: 100%;
+   }
+
 
