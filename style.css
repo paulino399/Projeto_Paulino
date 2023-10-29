@@ -95,7 +95,7 @@ header{
 
 /* Baner Principal */
 .vitrine {
-    min-height: 600px;
+    min-height: 1100px;
     width: 100%;
     background-image:url('/img/paulino0.jpg') ;
     background-position: center;
@@ -104,6 +104,10 @@ header{
     align-items: flex-end;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.box-vitrine{
+
 }
 
 
