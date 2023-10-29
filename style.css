@@ -94,7 +94,17 @@ header{
 }
 
 /* Baner Principal */
-
+.vitrine {
+    min-height: 600px;
+    width: 100%;
+    background-image: ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 
