@@ -122,6 +122,12 @@ font-size: 13px;
 }
 
 /* Segunda Secção */
+.bloco{
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
 .divisao {
     min-height: 600px;
     width: 100%;
