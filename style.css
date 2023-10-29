@@ -97,7 +97,7 @@ header{
 .vitrine {
     min-height: 600px;
     width: 100%;
-    background-image: ;
+    background-image:url('/img/image1_amazon.jpg') ;
     background-position: center;
     background-size: cover;
     display: flex;
