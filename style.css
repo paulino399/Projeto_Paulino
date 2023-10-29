@@ -107,7 +107,7 @@ header{
 
 .box-vitrine{
     position: relative;
-    top:15px;
+    top:-2px;
     width: 24%;
     background-color: white;
     padding: 8px 12px;
