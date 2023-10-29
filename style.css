@@ -102,7 +102,7 @@ header{
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
