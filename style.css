@@ -158,6 +158,12 @@ font-size: 13px;
    }
 
    .sobre{
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+   .sobre{
     height: 200px;
     background-color: white;
    }
