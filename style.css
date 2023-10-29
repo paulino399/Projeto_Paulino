@@ -171,9 +171,10 @@ font-size: 13px;
     margin:5px 30%;
    }
    .sobre i{
-    width: 5px;
-    height:5px;
+    width: 20px;
+    height:20px;
     color: red;
+    display: flex;
  
    }
 
