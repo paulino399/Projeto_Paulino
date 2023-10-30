@@ -82,3 +82,13 @@ input{
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.btn{
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: #014A50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
