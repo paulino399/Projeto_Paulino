@@ -59,3 +59,9 @@ body{
     flex: 2;
     text-align: 20px;
 }
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #014A50;
+}
