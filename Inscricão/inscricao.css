@@ -40,3 +40,8 @@ body{
     padding: 14px;
     cursor: pointer;
 }
+
+.btn:hover{
+    background-color: #1f7d5f;
+    color: white;
+}
