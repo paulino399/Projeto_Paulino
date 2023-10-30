@@ -28,3 +28,12 @@ body{
     display: flex;
     width: 500px;
 }
+
+.image-box{
+    flex: 2;
+}
+
+.img{
+    width: 170px;
+    height: auto;
+}
