@@ -37,3 +37,13 @@ body{
     width: 170px;
     height: auto;
 }
+
+.close{
+    margin-top: -20px;
+    margin-left: -20px;
+    background-color: #014A50;
+    border-radius: 5px;
+    width: 27px;
+    height: 27px;
+    display: flex;
+}
