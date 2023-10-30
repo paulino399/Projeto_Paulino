@@ -50,3 +50,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+.close:hover{
+    cursor: pointer;
+    background-color: #333333;
+}
