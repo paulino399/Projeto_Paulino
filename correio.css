@@ -92,3 +92,7 @@ input{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.btn-box{
+    width: 150px;
+}
