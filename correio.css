@@ -54,3 +54,8 @@ body{
     cursor: pointer;
     background-color: #333333;
 }
+
+.details {
+    flex: 2;
+    text-align: 20px;
+}
