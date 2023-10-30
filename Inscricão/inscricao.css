@@ -12,3 +12,11 @@ body{
     justify-content: center;
     background-color: #32cd9c;
 }
+
+.container{
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
