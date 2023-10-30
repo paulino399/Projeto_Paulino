@@ -97,3 +97,7 @@ input{
 .btn-box{
     width: 150px;
 }
+
+.show{
+    visibility: visible;
+}
