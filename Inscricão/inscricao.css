@@ -30,3 +30,13 @@ body{
     font-size: 16px;
     outline: none;
 }
+
+.btn{
+    width: 100%;
+    border: none !important;
+    background-color: #32cd9c;
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 14px;
+    cursor: pointer;
+}
