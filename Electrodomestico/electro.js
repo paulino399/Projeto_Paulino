@@ -97,3 +97,10 @@ const categories = [...new Set(product.map((item)=>
     }
 
     displayItem(flterFirstCtegories)
+
+    const btns=[
+        {
+            id: 1,
+            name: '<<'
+        },
+    ]
