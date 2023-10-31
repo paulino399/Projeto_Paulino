@@ -29,3 +29,13 @@ const btns = [
       return `<button class='fil-p' onclick='filterItems(${btn.id})'>${btn.name}</button>`;
     }).join('');
   
+    const product = [
+        {
+            id: 1,
+            image: 'Imagem/gamer.png',
+            title: 'Z Flip Foldable  Mobile',
+            price: 120,
+            category: 'mobile'
+        },
+
+    ]
