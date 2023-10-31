@@ -115,4 +115,10 @@ const categories = [...new Set(product.map((item)=>
             id: 3,
             name: '3'
         },
+        {
+            id: 3,
+            name: '>>'
+        },
     ]
+
+    const filters = 
