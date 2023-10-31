@@ -8,3 +8,11 @@
 .container{
     display: flex;
 }
+
+.sidebar{
+    width: 25%;
+    height: 100vh;
+    padding: 50px;
+    background-color: #ddd;
+    position: fixed;
+}
