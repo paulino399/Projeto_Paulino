@@ -9,6 +9,8 @@ body{
 }
 
 .principal{
+    border-radius:7px;
+    border: 2px solid red;
     height:80px;
     width: 100%;
     background-color: grey;
