@@ -19,6 +19,7 @@ const product = [
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
+        
     },
     {
         id: 2,
