@@ -30,35 +30,35 @@ const product = [
     },
     {
         id: 2,
-        image: 'pngwing.com(5).png',
+        image: '/eletrico/camerap.png',
         title: 'Z Flip Casquete',
         price: 120,
         category: 'mobile'
     },
     {
         id: 2,
-        image: 'pngwing.com(6).png',
+        image: '/eletrico/camera2p.png',
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
     },
     {
         id: 3,
-        image: 'pngwing.com(12).png',
+        image: '/eletrico/bt1.png',
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
     },
     {
         id: 3,
-        image: 'pngwing.com(13).png',
+        image: '/eletrico/bt2.png',
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
     },
     {
         id: 3,
-        image: 'pngwing.com(14).png',
+        image: '/eletrico/bt3.png',
         title: 'Z Flip bola',
         price: 120,
         category: 'mobile'
