@@ -20,3 +20,6 @@ constbtns=[
     name: 'Air Pods'
 },
 ]
+
+const filters = [...new Set(btns.map((btn)=>
+            {return btn}))]
