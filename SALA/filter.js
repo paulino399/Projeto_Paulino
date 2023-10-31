@@ -125,3 +125,5 @@ const btns = [
             </div>`)
     }).join('');
 }
+
+displayItem(categories);
