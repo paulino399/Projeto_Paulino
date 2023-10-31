@@ -82,5 +82,9 @@ button:hover{
    justify-content: center;
    width: 20px;
    margin: 40px 5px;
+}
 
+#btns>button:hover{
+    background: #4bb7e1;
+    color: white;
 }
