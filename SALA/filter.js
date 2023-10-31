@@ -108,7 +108,8 @@ const btns = [
     const categories = [...new Set(product.map((item)=>
         {return item}))]
 
-    const displayItem =('root').innerHTML = item.map((item)=>
+    const displayItem = (items) =>{
+    document.getElementById('root').innerHTML = items.map((item)=>
     {
         var {image, title, price} = item;
         return(
@@ -118,8 +119,9 @@ const btns = [
             <img class= 'images' src=${image}></img>
             </div>
             <div  class='bottom'>
-            <h2>$ ${prince}.00</h2>
-            <button>Add to cary</button>
+            <h2>$ ${price}.00</h2>
+            <button>Add to cart</button>
             </div>
             </div>`)
     }).join('');
+}
