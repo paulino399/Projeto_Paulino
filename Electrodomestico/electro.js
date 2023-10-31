@@ -62,4 +62,24 @@ const product = [
         price: 120,
         category: 'mobile'
     },
-]
+];
+
+const categories = [...new Set(product.map((item)=>
+    {return item}))]
+
+    const display.item = (items) => {
+               document.getElementById('root').innerHTML = items.map((item) =>
+                {
+                    var {image, title, price} = item;
+                    return(
+                        `<div class='box'>
+                        <div class='img-box'>
+                        <img class= 'images' src=${image}></img>
+                        </div>
+                        <div class ='bottom'>
+
+                    )
+                }
+               )
+
+    }
