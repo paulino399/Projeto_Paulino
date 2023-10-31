@@ -23,3 +23,7 @@ constbtns=[
 
 const filters = [...new Set(btns.map((btn)=>
             {return btn}))]
+
+document.getElementById('btns').innerHTML=filters.map((btn)={
+    var {name, id} = btn;
+})
