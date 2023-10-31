@@ -26,4 +26,7 @@ const filters = [...new Set(btns.map((btn)=>
 
 document.getElementById('btns').innerHTML=filters.map((btn)={
     var {name, id} = btn;
-})
+    return(
+        "<button class='fil-p' onclick='filterItems("+(id)+`)'>${name}</button>`
+    )
+}).join('');
