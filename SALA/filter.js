@@ -27,6 +27,5 @@ const btns = [
     .map((id) => {
       const btn = btns.find((btn) => btn.id === id);
       return `<button class='fil-p' onclick='filterItems(${btn.id})'>${btn.name}</button>`;
-    })
-    .join('');
+    }).join('');
   
