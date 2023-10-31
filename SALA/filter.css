@@ -4,3 +4,7 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+
+.container{
+    display: flex;
+}
