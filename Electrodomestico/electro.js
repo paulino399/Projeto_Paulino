@@ -79,7 +79,7 @@ const categories = [...new Set(product.map((item)=>
                         <div class ='bottom'>
                        <p>${title}</p>
                        <h2>$ ${price}.00</h2>
-                       <button>Add to  cart</button>
+                       <button>Adicionar no carrinho</button>
                        </div>
                        </div>`)
 
