@@ -123,3 +123,15 @@ const categories = [...new Set(product.map((item)=>
 
     const filters = [...new Set(btns.map((btn)=>
         {return btn}))]
+
+        document.getElementById('btns').innerHTML = items.map((btn) =>
+        {
+            var {name, id} = btn;
+            return(
+                "<button class='fil-p' onclick='filterItems("+(id)+`)'>${name}</button>`
+            )
+        }).join('');
+                
+
+        
+
