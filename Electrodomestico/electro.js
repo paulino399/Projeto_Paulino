@@ -87,4 +87,13 @@ const categories = [...new Set(product.map((item)=>
     };
 
     const flterFirstCtegories = categories.filter(item);
-    function item(value)
+    function item(value){
+        if(value.id==1){
+            return(
+                value.id
+            )
+
+        }
+    }
+
+    displayItem(flterFirstCtegories)
