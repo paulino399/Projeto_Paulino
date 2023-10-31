@@ -1,21 +1,21 @@
 const product = [
     {
         id: 1,
-        image: '/primeira.png',
-        title: 'Fogão',
+        image: '/eletrico/primeira.png',
+        title: 'Fogão 4 Bocas',
         price: 120,
         category: 'mobile'
     },
     {
         id: 1,
-        image: '/pngwing.com(2).png',
-        title: 'Z Flip Foldable Mobile',
+        image: '/eletrico/tablete.png',
+        title: 'Tablet Sumsung',
         price: 120,
         category: 'mobile'
     },
     {
         id: 1,
-        image: 'eletrico/pngwing.com(3).png',
+        image: '/eletrico/camerafixa.png',
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
@@ -23,7 +23,7 @@ const product = [
     },
     {
         id: 2,
-        image: 'pngwing.com(4).png',
+        image: '/eletrico/mouse.png',
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
