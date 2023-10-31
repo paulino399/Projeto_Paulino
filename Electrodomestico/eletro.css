@@ -49,3 +49,7 @@ body{
     justify-content: space-between;
     height: 110px;
 }
+h2{
+    font-size: 20px;
+    color: red;
+}
