@@ -116,7 +116,10 @@ const btns = [
             <h3>${title}<h3>
             <div class='img-box'> 
             <img class= 'images' src=${image}></img>
-            </div>`
-        )
-    }
-    ) 
+            </div>
+            <div  class='bottom'>
+            <h2>$ ${prince}.00</h2>
+            <button>Add to cary</button>
+            </div>
+            </div>`)
+    }).join('');
