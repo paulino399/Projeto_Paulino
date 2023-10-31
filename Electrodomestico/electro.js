@@ -131,6 +131,18 @@ const categories = [...new Set(product.map((item)=>
                 "<button class='fil-p' onclick='filterItems("+(id)+`)'>${name}</button>`
             )
         }).join('');
+
+ const filterItems = (a)=>{
+         const flterFirstCtegories =categories.filter(item);
+          function item(value){
+               if(value.id==a){
+                return(
+                    value.id
+                )
+               }
+          }
+        displayItem(flterFirstCtegories)
+ }
                 
 
         
