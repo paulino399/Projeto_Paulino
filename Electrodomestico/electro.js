@@ -13,6 +13,7 @@ const product = [
         price: 120,
         category: 'mobile'
     },
+   
     {
         id: 1,
         image: '/eletrico/camerafixa.png',
