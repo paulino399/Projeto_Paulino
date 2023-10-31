@@ -111,4 +111,8 @@ const categories = [...new Set(product.map((item)=>
             id: 2,
             name: '2'
         },
+        {
+            id: 3,
+            name: '3'
+        },
     ]
