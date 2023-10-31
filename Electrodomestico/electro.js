@@ -121,4 +121,5 @@ const categories = [...new Set(product.map((item)=>
         },
     ]
 
-    const filters = 
+    const filters = [...new Set(btns.map((btn)=>
+        {return btn}))]
