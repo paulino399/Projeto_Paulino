@@ -117,14 +117,14 @@ const categories = [...new Set(product.map((item)=>
         },
         {
             id: 3,
-            name: '>>'
+            name: '>>',
         },
     ]
 
     const filters = [...new Set(btns.map((btn)=>
         {return btn}))]
 
-        document.getElementById('btns').innerHTML = items.map((btn) =>
+        document.getElementById('btns').innerHTML = filters.map((btn) =>
         {
             var {name, id} = btn;
             return(
