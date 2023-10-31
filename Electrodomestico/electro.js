@@ -1,14 +1,14 @@
 const product = [
     {
         id: 1,
-        image: 'eletrico/pngwing.com(1).png',
-        title: 'Bleuthoo',
+        image: '/primeira.png',
+        title: 'Fogão',
         price: 120,
         category: 'mobile'
     },
     {
         id: 1,
-        image: 'eletrico/pngwing.com(2).png',
+        image: '/pngwing.com(2).png',
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
@@ -19,7 +19,7 @@ const product = [
         title: 'Z Flip Foldable Mobile',
         price: 120,
         category: 'mobile'
-        
+
     },
     {
         id: 2,
