@@ -37,5 +37,13 @@ const btns = [
             price: 120,
             category: 'mobile'
         },
+        {
+            id: 5,
+            image: 'Imagem/pcasus.png',
+            title: 'Z Flip Foldable  Mobile',
+            price: 120,
+            category: 'mobile'
+        },
+        
 
     ]
