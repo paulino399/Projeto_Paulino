@@ -77,9 +77,14 @@ const categories = [...new Set(product.map((item)=>
                         <img class= 'images' src=${image}></img>
                         </div>
                         <div class ='bottom'>
+                       <p>${title}</p>
+                       <h2>$ ${price}.00</h2>
+                       <button>Add to  cart</button>
+                       </div>
+                       </div>`)
 
-                    )
-                }
-               )
+                    }).join('');
+    };
 
-    }
+    const flterFirstCtegories = categories.filter(item);
+    function item(value)
