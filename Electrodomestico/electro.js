@@ -20,4 +20,32 @@ const product = [
         price: 120,
         category: 'mobile'
     },
+    {
+        id: 2,
+        image: 'pngwing.com(4).png',
+        title: 'Z Flip Foldable Mobile',
+        price: 120,
+        category: 'mobile'
+    },
+    {
+        id: 2,
+        image: 'pngwing.com(5).png',
+        title: 'Z Flip Foldable Mobile',
+        price: 120,
+        category: 'mobile'
+    },
+    {
+        id: 2,
+        image: 'pngwing.com(6).png',
+        title: 'Z Flip Foldable Mobile',
+        price: 120,
+        category: 'mobile'
+    },
+    {
+        id: 3,
+        image: 'pngwing.com(12).png',
+        title: 'Z Flip Foldable Mobile',
+        price: 120,
+        category: 'mobile'
+    },
 ]
