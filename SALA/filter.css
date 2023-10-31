@@ -16,3 +16,7 @@
     background-color: #ddd;
     position: fixed;
 }
+.sidebar>h3{
+    color: orangered;
+    padding-left: 40px;
+}
