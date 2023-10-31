@@ -4,8 +4,12 @@ constbtns=[
     name: 'Mobiles'
 },
 {
-    id:2,
+    id: 2,
     name:'Watches'
-}
+},
+{
+    id: 3,
+    name: 'Cameras'
+},
 
 ]
