@@ -74,5 +74,13 @@ button:hover{
 }
 
 #btns>button{
+   border: 1px solid #4bb7e1;
+   background: none;
+   color: #4bb7e1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 20px;
+   margin: 40px 5px;
 
 }
