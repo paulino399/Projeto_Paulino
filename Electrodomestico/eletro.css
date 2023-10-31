@@ -13,6 +13,10 @@ body{
     background-color: grey;
 }
 
+.principal h1{
+    justify-content: center;
+    text-align: center;
+}
 #root{
     width: 100%;
     display: grid;
