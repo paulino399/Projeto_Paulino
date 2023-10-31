@@ -28,3 +28,8 @@
 .filter h3{
     margin-bottom: 30px;
 }
+.contant{
+    width: 75%;
+    position: absolute;
+    right: 0;
+}
