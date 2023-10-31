@@ -30,7 +30,7 @@ const product = [
     {
         id: 2,
         image: 'pngwing.com(5).png',
-        title: 'Z Flip Foldable Mobile',
+        title: 'Z Flip Casquete',
         price: 120,
         category: 'mobile'
     },
@@ -58,7 +58,7 @@ const product = [
     {
         id: 3,
         image: 'pngwing.com(14).png',
-        title: 'Z Flip Foldable Mobile',
+        title: 'Z Flip bola',
         price: 120,
         category: 'mobile'
     },
