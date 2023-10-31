@@ -33,3 +33,13 @@
     position: absolute;
     right: 0;
 }
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    border-bottom: 1px solid #eee;
+    color: #383838;
+    background-color: #eee;
+}
