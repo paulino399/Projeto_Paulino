@@ -31,3 +31,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.images{
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: center;
+    object-position: center;
+}
