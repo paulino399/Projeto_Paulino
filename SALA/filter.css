@@ -43,3 +43,8 @@
     color: #383838;
     background-color: #eee;
 }
+
+.header p{
+    font-size: 30px;
+    font-weight: bold;
+}
