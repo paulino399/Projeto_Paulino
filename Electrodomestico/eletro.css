@@ -6,6 +6,12 @@
 body{
     padding: 78px 150px;
 }
+
+.principal{
+    height:100px;
+    width: 100%;
+    background-color: aqua;
+}
 #root{
     width: 100%;
     display: grid;
