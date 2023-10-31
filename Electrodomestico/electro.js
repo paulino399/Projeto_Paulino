@@ -67,7 +67,7 @@ const product = [
 const categories = [...new Set(product.map((item)=>
     {return item}))]
 
-    const display.item = (items) => {
+    const displayItem = (items) => {
                document.getElementById('root').innerHTML = items.map((item) =>
                 {
                     var {image, title, price} = item;
