@@ -10,8 +10,9 @@ body{
 .principal{
     height:100px;
     width: 100%;
-    background-color: aqua;
+    background-color: grey;
 }
+
 #root{
     width: 100%;
     display: grid;
