@@ -29,101 +29,99 @@ const btns = [
       return `<button class='fil-p' onclick='filterItems(${btn.id})'>${btn.name}</button>`;
     }).join('');
   
-    const product = [
-        {
-            id: 1,
-            image: 'Imagem/gamer.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-        {
-            id: 5,
-            image: 'Imagem/pcasus.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-        {
-            id: 3,
-            image: 'Imagem/pcDall.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 230,
-            category: 'mobile'
-        },
-        {
-            id: 1,
-            image: 'Imagem/pcsamsung.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-
-        {
-            id: 5,
-            image: 'Imagem/gamer.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-
-        {
-            id: 3,
-            image: 'Imagem/pcasus.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-
-        {
-            id: 4,
-            image: 'Imagem/gamer.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-        {
-            id: 1,
-            image: 'Imagem/pcDall.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-        {
-            id: 3,
-            image: 'Imagem/pcsamsung.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-        {
-            id: 5,
-            image: 'Imagem/gamer.png',
-            title: 'Z Flip Foldable  Mobile',
-            price: 120,
-            category: 'mobile'
-        },
-    ];
-
-    const categories = [...new Set(product.map((item)=>
-        {return item}))]
-
-    const displayItem = (items) =>{
-    document.getElementById('root').innerHTML = items.map((item)=>
+  const product = [
     {
-        var {image, title, price} = item;
-        return(
-            `<div class ='box'>
-            <h3>${title}<h3>
-            <div class='img-box'> 
-            <img class= 'images' src=${image}></img>
-            </div>
-            <div  class='bottom'>
-            <h2>$ ${price}.00</h2>
-            <button>Add to cart</button>
-            </div>
-            </div>`)
-    }).join('');
+      id: 1,
+      image: 'Imagem/gamer.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 5,
+      image: 'Imagem/pcasus.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 3,
+      image: 'Imagem/pcDall.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 230,
+      category: 'mobile'
+    },
+    {
+      id: 1,
+      image: 'Imagem/pcsamsung.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 5,
+      image: 'Imagem/gamer.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 3,
+      image: 'Imagem/pcasus.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 4,
+      image: 'Imagem/gamer.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 1,
+      image: 'Imagem/pcDall.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 3,
+      image: 'Imagem/pcsamsung.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    },
+    {
+      id: 5,
+      image: 'Imagem/gamer.png',
+      title: 'Z Flip Foldable Mobile',
+      price: 120,
+      category: 'mobile'
+    }
+  ];
+  
+const categories = [...new Set(product.map((item)=>
+    {return item}))]
+
+const displayItem = (items) =>{
+document.getElementById('root').innerHTML = items.map((item)=>
+{
+    var {image, title, price} = item;
+    return(
+        `<div class ='box'>
+        <h3>${title}<h3>
+        <div class='img-box'> 
+        <img class= 'images' src=${image}></img>
+        </div>
+        <div  class='bottom'>
+        <h2>$ ${price}.00</h2>
+        <button>Add to cart</button>
+        </div>
+        </div>`)
+}).join('');
+
 }
 
 displayItem(categories);
