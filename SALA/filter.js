@@ -107,4 +107,16 @@ const btns = [
 
     const categories = [...new Set(product.map((item)=>
         {return item}))]
-        
+
+    const displayItem =('root').innerHTML = item.map((item)=>
+    {
+        var {image, title, price} = item;
+        return(
+            `<div class ='box'>
+            <h3>${title}<h3>
+            <div class='img-box'> 
+            <img class= 'images' src=${image}></img>
+            </div>`
+        )
+    }
+    ) 
