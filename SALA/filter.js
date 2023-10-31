@@ -105,4 +105,6 @@ const btns = [
         },
     ];
 
-    
+    const categories = [...new Set(product.map((item)=>
+        {return item}))]
+        
