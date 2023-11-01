@@ -166,5 +166,9 @@ button{
     background-color: greenyellow;
 }
 
-button:hover{}
+button:hover{
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+}
 
