@@ -61,25 +61,15 @@ cNumber.addEventListener('keyup', function(e){
 
     let eDate = document.getElementById('e-data');
      eDate.addEventListener('keyup', function(e){
-    let num = cNumber.value;
 
     let newInput = eDate.value;
-    
-    num = num.replace(/\s/g, '');
-    for( var i = 0; i < num.length; i++) {
-        if(i%4 ==0 && i>0) newValue = newValue.concat(' ');
-        newValue = newValue.concat(num[i]);
-        cNumber.value = newValue;
-    }
+     if(e.which !==8) {
+        var numChars = e.target.value.length;
+        
 
-    let ccNum = document.getElementById('c-number');
-       if(num.length<16){
-        ccNum.style.border="1px solid red";
-       } else {
-        ccNum.style.border="1px solid greenyellow";
-       }
+     
 
-    });
+   
  
 
 
