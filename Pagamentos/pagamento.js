@@ -17,4 +17,15 @@ function doFun(){
     cDetails.style.display = "block";
 }
 
+function doFunA(){
+    tColorA.style.color = "#444";
+    tColorB.style.color = "greenyellow";
+    tColorC.style.color = "#444";
+    iconA.style.color = "#aaa";
+    iconB.style.color = "greenyellow";
+    iconC.style.color = "#aaa";
+    cDetails.style.display = "none";
+}
+
+
 
