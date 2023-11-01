@@ -11,9 +11,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:url('/img/Paulino3.jpg'); 
-    background-size: cover; /* Isso ajustará a imagem para cobrir toda a página */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-image:url('/cafe.jpg'); 
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -23,7 +23,7 @@ body{
     width: 80%;
     border: 1px solid #ccc;
     border-radius: 7px;
-    background-color: cadetblue;
+    
 }
 
 .left{
