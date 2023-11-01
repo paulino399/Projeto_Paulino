@@ -60,10 +60,11 @@ cNumber.addEventListener('keyup', function(e){
     });
 
     let eDate = document.getElementById('e-data');
-cNumber.addEventListener('keyup', function(e){
+     eDate.addEventListener('keyup', function(e){
     let num = cNumber.value;
 
-    let newValue = '';
+    let newInput = eDate.value;
+    
     num = num.replace(/\s/g, '');
     for( var i = 0; i < num.length; i++) {
         if(i%4 ==0 && i>0) newValue = newValue.concat(' ');
