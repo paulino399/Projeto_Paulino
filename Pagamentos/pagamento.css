@@ -11,5 +11,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.container{
+    display: flex;
+    width: 67%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
 }
