@@ -67,3 +67,11 @@ body{
     border-left: 1px solid #ccc;
     height: 70vh;
 }
+
+.center a{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
