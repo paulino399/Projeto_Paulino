@@ -108,3 +108,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+input{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
