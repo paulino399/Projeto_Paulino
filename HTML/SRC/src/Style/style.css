@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, ArialMT, Arial Bold, Arial Black, ArialHebrew;
+}
+:root {
+    --text-bg-color: #69371c;
+    --text-color: #231f16;
+    --text-dark-color: #f4ecdd;
+    --text-menu-color: #977053;
+    --text-menu-color12: #dacec6;
+    --text-menu-color1: #eae6e47a;
+    --text-color1: #bb8d37;
+    --color-dark: black;
+}
+body {
+    background: var(--text-dark-color);
+}
+header.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: var(--text-menu-color);
+    overflow: hidden;
+}
+.hamburguer{
+    display: none;
+}
+.cabecalho div.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.menu-humburguer{
+    display: none;
+}
+.cabecalho div div.container-logo-menu {
+    display: flex;
+    align-items: flex-end;
+}
+.cabecalho div div .logo{
+    margin-bottom: -10px;
+}
+.cabecalho div div .menu {
+    display: inline-block;
+    background-color: var(--text-bg-color);
+    box-shadow: 2px 2px 2px var(--text-color);
+}
+.cabecalho div div .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho div div .menu ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.cabecalho div div .menu ul li a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+.cabecalho div div .menu ul li a:hover {
+    color: var(--text-color1);
+}
+.search input[type="text"]{
+    border-radius: 10px;
+    padding: 6px;
+}
+.search button *{
+    padding: 10px;
+    background-color: var(--text-menu-color);
+    font-size: 25px;
+}
+.nb{
+    height: 400px;
+    background-color: #bb8d37;
+}
+.nb img {
+    height: 400px;
+}
+.hello {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 320px;
+}
+.hello .conteudo{
+    max-width: 760px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-self: center;
+}
+.hello .conteudo h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+.hello .conteudo p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.hello .destaque {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px;
+}
+.hello .destaque header{
+    height: 30px;
+    background-color: var(--text-menu-color);
+}
+.hello .destaque header h4 {
+    font-size: 19px;
+    text-align: center;
+    color: var(--text-dark-color);
+    line-height: 30px;
+}
+.livros{
+    background-color: var(--text-menu-color1);
+    padding: 10px;
+}
+.livros div aside {
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.livros div aside div {
+    overflow: hidden;
+    width: 24%;
+    background-color: #bb8d37;
+    box-shadow: 0px 2px 3px 1px black;
+    border: 2px solid var(--text-bg-color);
+    cursor: pointer;
+}
+.livros div aside div .cabecalho1 {
+    margin-top: -10px;
+    padding: 10px;
+    height: 25%;
+    background-color: var(--text-bg-color);
+    position: relative;
+}
+.livros div aside div .cabecalho1::after {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+    bottom: -10px;
+    rotate: 135deg;
+    height: 25%;
+    background-color: var(--text-bg-color);
+}
+.livros div aside div .cabecalho1 h4, .livros div aside div .cabecalho1 h5{
+    padding: 10px;
+    color: var(--text-menu-color12);
+}
+.livros div aside div .cabecalho1 h4{
+    font-size: 16px;
+}
+.livros div aside div .cabecalho1 h5{
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    
+}
+.livros div aside div img {
+    width: 100%;
+    height: 100%;
+}
+.livros div aside article {
+    margin: 20px;
+}
+form label{
+    display: block;
+    font-weight: 600;
+}
+.destaque form input[type="text"], .destaque  form button, .destaque form input[type="email"], .destaque form textarea {
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 3px;
+    width: 90%;
+    background-color: #977053;
+    color: var(--text-color);
+}
+.destaque form textarea {
+    height: 105px;
+}
+.destaque div div img{
+    width: 100%;
+    height: 100%;
+}
+.destaque form button {
+    background-color: var(--text-bg-color);
+    margin-top: 10px;
+    color: var(--text-color1);
+}
+.rodape {
+    height: 40vh;
+    background-color: var(--text-color);
+    color: var(--text-dark-color);
+}
+.rodape div.informacoes {
+    padding: 10px;
+}
+.rodape div div.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rodape div div.info div{
+    padding-right: 15px;
+    width: 25%;
+}
+.rodape form input[type="text"],.rodape form input[type="email"] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.rodape form button{
+    width: 100%;
+    background-color: var(--text-color1);
+}
+.rodape form ::placeholder {
+    color: var(--text-color1);
+    padding: 5px;
+}
+.rodape h5{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.rodape .REDES-SOCIAIS p i{
+    font-size: 200%;
+    margin-left: 10px;
+}
+
+@media (max-width: 991px){
+    .extends {
+        width: 100%;
+        height: 325px !important;
+        transition: 1.5s;
+    }
+    .cabecalho div.container{
+        display: block;
+    }
+    
+    header .container {
+        width: 100%;
+    }
+    .cabecalho div div.container-logo-menu {
+        width: 100%;
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    .menu-humburguer{
+        display: block;
+    }
+    .hamburguer{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburguer div{
+        width: 40px;
+        height: 4px;
+        margin: 6px;
+        border-radius: 4px;
+        background-color: var(--color-dark);
+        position: relative;
+        overflow: hidden;
+    }
+    .first{
+        transition: 2s;
+        rotate: 30deg;
+        position: absolute;
+        bottom: -10px;
+    }
+    .last{
+        transition: 2s;
+        rotate: 160deg;
+    }
+    .menu-items{
+        transition: 2s;
+        display: none;
+    }
+    .cabecalho div div .menu {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .menu-humburguer a{
+        display: block;
+        padding: 10px;
+        color: var(--color-dark);
+        text-align: center;
+        text-decoration: none;
+    }
+    .menu-humburguer a:hover{
+        background-color: var(--text-color1);
+        color: var(--text-dark-color);
+        transition: 1s;
+    }
+    .hello .conteudo{
+        width: 100%;
+    }
+    .livros .container aside div{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    .livros .container aside {
+        flex-wrap: wrap;
+    }
+    .livros div aside article {
+        margin: 10px;
+    }
+    .rodape {
+        height: auto;
+    }
+    .rodape div div.info div{
+        padding-right: 15px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .livros div aside div .cabecalho1 h4{
+        font-size: 12px;
+    }
+    .livros div aside div .cabecalho1 h5{
+        position: relative;
+        z-index: 2;
+        font-size: 10px;
+        
+    }
+}
+@media (max-width: 556px) {
+    .livros .container aside div{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    .livros .container aside {
+        flex-wrap: wrap;
+    } 
+    .hello {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .hello .conteudo{
+        max-width: 760px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column; 
+        align-self: center;
+    }
+    .hello .destaque {
+        width: 200px;
+        align-self: center;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 1px 1px 1px;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+         width: 100%; 
+         padding-right: none; 
+        padding-left: none; 
+        margin-right: none; 
+        margin-left: none;
+    }
+    p {
+        text-align: justify;
+    }
+    .livros div aside article {
+        margin: 0px;
+    }
+    .rodape {
+        height: auto;
+    }
+    .rodape div div.info div{
+        padding-right: 15px;
+        width: 100%;
+    }
+}
