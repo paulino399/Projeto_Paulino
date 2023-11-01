@@ -87,3 +87,13 @@ body{
 .details{
     padding: 20px 20px;
 }
+.right a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.card-details{
+    padding: 20px 80px;
+}
