@@ -1,0 +1,1 @@
+let tColorA = document.getElementById('tColorA'),
