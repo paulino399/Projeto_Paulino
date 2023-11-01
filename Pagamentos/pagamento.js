@@ -59,11 +59,14 @@ cNumber.addEventListener('keyup', function(e){
 
     });
 
+    /*  O problema começa aqui */
+
     let eDate = document.getElementById('e-data');
-     eDate.addEventListener('keyup', function(e){
+     eDate.addEventListener('keyup', function( e ){
 
     let newInput = eDate.value;
-     if(e.which !==8) {
+
+     if(e.which !== 8) {
         var numChars = e.target.value.length;
         if(numChars == 2){
             var thisVal = e.target.value;
@@ -71,9 +74,29 @@ cNumber.addEventListener('keyup', function(e){
             e.target.value =thisVal;
             console.log(thisVal.length)
         }
+    }
 
-     
+    if(newInput.length<5){
+        eDate.style.border="1px solid red";
+       } else {
+        eDate.style.border="1px solid greenyellow";
+       }
+    });
 
+
+    let cvv = document.getElementById('cvv');
+    cvv.addEventListener('keyup', function(e){
+
+        let elen = cvv.value;
+        let cvvBox = document.getElementById('cvv-box');
+        if(elen.length<3){
+            cvvBox.style.border = "1px solid red";
+        } 
+        else{
+            cvvBox.style.border = "1px solid greenyellow";
+        }
+
+    });
    
  
 
