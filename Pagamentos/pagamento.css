@@ -11,15 +11,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background-image:url('/img/Paulino3.jpg'); 
+    background-size: cover; /* Isso ajustará a imagem para cobrir toda a página */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+
 }
 
 
 .container{
     display: flex;
-    width: 67%;
+    width: 80%;
     border: 1px solid #ccc;
     border-radius: 7px;
+    background-color: cadetblue;
 }
 
 .left{
