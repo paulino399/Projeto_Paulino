@@ -37,3 +37,9 @@ body{
     cursor: pointer;
     font-size: 15px;
 }
+
+.methods div:hover{
+    box-shadow: 0 0 10px rgba(172, 255, 47, 0.196);
+}
+
+.methods div::after{}
