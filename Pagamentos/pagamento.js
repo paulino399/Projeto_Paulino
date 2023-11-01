@@ -38,3 +38,13 @@ function doFunB(){
 }
 
 
+let cNumber = document.getElementById('number');
+cNumber.addEventListener('keyup', function(e){
+    let num = cNumber.value;
+
+    let newValue = '';
+    num = num.replace(/\s/g, '')
+
+
+})
+
