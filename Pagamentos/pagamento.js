@@ -61,7 +61,7 @@ cNumber.addEventListener('keyup', function(e){
 
     /*  O problema começa aqui */
 
-    let eDate = document.getElementById('e-data');
+    let eDate = document.getElementById('e-date');
      eDate.addEventListener('keyup', function( e ){
 
     let newInput = eDate.value;
