@@ -95,7 +95,6 @@ cNumber.addEventListener('keyup', function(e){
         else{
             cvvBox.style.border = "1px solid greenyellow";
         }
-
     });
    
  
