@@ -149,5 +149,22 @@ input{
 .email input{
     width: 100%;
     border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 12px;
+    height: 50px;
+    margin-top: 10px;
 }
+
+button{
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #444;
+    background-color: greenyellow;
+}
+
+button:hover{}
 
