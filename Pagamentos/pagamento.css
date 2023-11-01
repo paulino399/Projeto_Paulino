@@ -79,3 +79,7 @@ body{
 .right{
     width: 25%;
 }
+.right p{
+    padding: 30px 20px;
+    font-weight: bold;
+}
