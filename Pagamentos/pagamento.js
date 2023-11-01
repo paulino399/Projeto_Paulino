@@ -27,5 +27,14 @@ function doFunA(){
     cDetails.style.display = "none";
 }
 
+function doFunB(){
+    tColorA.style.color = "#444";
+    tColorB.style.color = "#444";
+    tColorC.style.color = "greenyellow";
+    iconA.style.color = "#aaa";
+    iconB.style.color = "#444";
+    iconC.style.color = "greenyellow";
+    cDetails.style.display = "none";
+}
 
 
