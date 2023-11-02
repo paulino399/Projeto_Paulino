@@ -12,6 +12,17 @@
     box-sizing: border-box;
 }
 
+
+
+body {
+    background-color: #aaa;
+    font-family:'Lato',Helvetica,Arial;
+    font-size:15px;
+    display:flex;
+    margin:0;
+    min-height:100vh;
+}
+
 /* Programation da parate do pagina */
 .pagina{
     width: 80%;
@@ -50,17 +61,11 @@
     }
   
 
-body {
-    background-color:#EEE;
-    font-family:'Lato',Helvetica,Arial;
-    font-size:15px;
-    display:flex;
-    margin:0;
-    min-height:100vh;
-}
+
 
 .models {
     display:none;
+    margin-top: 100px;
 }
 
 header {
