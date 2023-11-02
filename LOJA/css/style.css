@@ -12,6 +12,44 @@
     box-sizing: border-box;
 }
 
+/* Programation da parate do pagina */
+.pagina{
+    width: 80%;
+    height: 40px;
+    background-color: gray;
+    border: 1px solid grey;
+    border-radius: 7px;
+   text-align: center;
+   justify-content: center;
+   margin-left: 130px;
+  }
+  
+  .pagina  ul {
+      list-style-type: none;
+      padding-left: 0; 
+      padding: 10px; 
+    }
+  
+  .pagina li{
+      margin-bottom: 10px;
+  } 
+  
+  .pagina  a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 3px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 1px solid yellowgreen;
+      border-radius: 10px;
+    }
+      
+    .pagina a:hover, a:active {
+      background-color: red;
+    }
+  
+
 body {
     background-color:#EEE;
     font-family:'Lato',Helvetica,Arial;
