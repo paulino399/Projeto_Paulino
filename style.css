@@ -92,6 +92,20 @@ header{
     white-space:nowrap;
 }
 
+/* Programation da parate do pagina */
+.pagina{
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+}
+
+
+
+    
+
+
+
+
 /* Baner Principal */
 .vitrine {
     min-height: 600px;
