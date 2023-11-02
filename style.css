@@ -104,6 +104,14 @@ header{
  margin-left: 130px;
 }
 
+.pagina li{
+    display: flex;
+    /*margin:5px 8px;*/
+    text-align: center;
+    justify-content: center;
+    padding: 7px;
+    margin: auto;
+}
 
 
     
