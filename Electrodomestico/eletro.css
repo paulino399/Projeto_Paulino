@@ -25,6 +25,7 @@ body{
 .principal i{
    margin:-100px 95%;
    color: white;
+   cursor: pointer;
 }
 
 
