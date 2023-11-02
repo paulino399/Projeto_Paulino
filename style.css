@@ -104,14 +104,15 @@ header{
  margin-left: 130px;
 }
 
+.pagina  ul {
+    list-style-type: none;
+    padding-left: 0; 
+    padding: 10px; 
+  }
+
 .pagina li{
     display: flex;
-    /*margin:5px 8px;*/
-    text-align: center;
-    justify-content: center;
-    padding: 7px;
-    margin: auto;
-    
+    margin-bottom: 10px;
 }
   
 
