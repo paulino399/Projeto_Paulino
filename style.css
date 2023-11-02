@@ -111,11 +111,9 @@ header{
   }
 
 .pagina li{
-    display: flex;
     margin-bottom: 10px;
 }
   
-
 /* Baner Principal */
 .vitrine {
     min-height: 600px;
