@@ -21,6 +21,15 @@ body{
     text-align: center;
     color:blue;   
 }
+/* Carrinho */
+.principal i{
+   margin:-100px 95%;
+   color: white;
+}
+
+
+
+/* Fim Do carrinho */
 h1{
     justify-content: center;
     text-align: center;
