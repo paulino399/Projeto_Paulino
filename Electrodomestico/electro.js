@@ -3,7 +3,7 @@ const product = [
         id: 1,
         image: '/eletrico/primeira.png',
         title: 'Fogão 4 Bocas',
-        price: 120,
+        price: 350,
         category: 'mobile'
     },
     {
@@ -26,7 +26,7 @@ const product = [
         id: 2,
         image: '/eletrico/mouse.png',
         title: 'Z Flip Foldable Mobile',
-        price: 120,
+        price: 20,
         category: 'mobile'
     },
     {
