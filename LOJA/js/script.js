@@ -69,6 +69,16 @@ modelsJson.map((item, index)=>{
     c('.models-area').append(modelsItem);
 });
 
+
+
+
+
+
+
+
+
+
+
 //Ações do Modal - janela
 function closeModal(){
     c('.modelsWindowArea').style.opacity = 0; //criando uma animação
